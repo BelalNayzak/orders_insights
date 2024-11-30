@@ -12,7 +12,7 @@ The application adheres to **Clean Architecture** principles, which help promote
 - **Domain Layer**: Contains business logic and use cases. Each use case handles specific functionalities like fetching order details or managing user authentication.
 - **Presentation Layer**: Responsible for displaying UI components and interacting with the user, leveraging GetX for state management.
 
-
+```
 ├── assets/                # json data resources
 ├── core/                  # Core utilities and configurations
 │   ├── style/             # Project constants
@@ -26,6 +26,7 @@ The application adheres to **Clean Architecture** principles, which help promote
 │       └── presentation/  # presentation layer
 └── main.dart              # Project configuration
 └── pubspec.yaml           # Project configuration
+```
 
 ## Technologies & Features Used
 
