@@ -1,0 +1,24 @@
+name: orders_insights
+description: A Flutter app that displays insights from orders.json and provides metrics and chart visualization.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.0
+  syncfusion_flutter_charts: ^27.2.4
+  go_router: ^14.6.1
+  get_it: ^8.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/orders.json
